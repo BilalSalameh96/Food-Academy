@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/CHICKEN"
+        android:layout_width="224dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"
+        android:text="CHICKEN "
+        android:textColor="#BA0606"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/chicken1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/chicken1"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Grilled Chicken and Vegetable Skewers "
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CHICKEN"
+        app:srcCompat="@drawable/grilled_chicken_and_vegetable_skewers" />
+
+    <ImageButton
+        android:id="@+id/chicken3"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Grilled Lemon Herb Chicken"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/grilled_lemon_herb_chicken" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Grilled Chicken and Vegetable Skewers    45mins"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/chicken2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chicken1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Chicken and Quinoa Stuffed Bell Peppers    35mins"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/chicken3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chicken2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="56dp"
+        android:text="Grilled Lemon Herb Chicken    40mins"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chicken3" />
+
+    <ImageButton
+        android:id="@+id/chicken2"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Chicken and Quinoa Stuffed Bell Peppers"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/chicken_and_quinoa_stuffed_bell_peppers" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

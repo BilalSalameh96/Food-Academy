@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/BEEF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"
+        android:text="BEEF"
+        android:textAlignment="center"
+        android:textColor="#BA0606"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/beef1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/beef1"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Beef and Black Bean Tacos "
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BEEF"
+        app:srcCompat="@drawable/beef_and_black_bean_tacos" />
+
+    <ImageButton
+        android:id="@+id/beef2"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Beef and Broccoli Quinoa Bowl"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/beef_and_broccoli_quinoa_bowl" />
+
+    <ImageButton
+        android:id="@+id/beef3"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Beef and Vegetable "
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/beef_and_vegetable_" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Beef and Black Bean Tacos    40mins"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/beef2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beef1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Beef and Broccoli Quinoa Bowl    45mins"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/beef3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beef2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="56dp"
+        android:text="Beef and Vegetable    30mins"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beef3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

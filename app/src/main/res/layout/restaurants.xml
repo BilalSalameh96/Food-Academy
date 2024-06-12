@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#291616"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="Restaurants"
+            android:textAlignment="center"
+            android:textColor="#DA0C0C"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Green Gunkie"
+                        android:textAlignment="center"
+                        android:textColor="#7A1A1A"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="01/448801"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="-80dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/green">
+
+                    </ImageView>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Luna’s kitchen"
+                        android:textAlignment="center"
+                        android:textColor="#7A1A1A"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="01/340922"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="-80dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/luna">
+
+                    </ImageView>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LSALATA"
+                        android:textAlignment="center"
+                        android:textColor="#7A1A1A"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="01/992424"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="-80dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/salata">
+
+                    </ImageView>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SLD BAR "
+                        android:textAlignment="center"
+                        android:textColor="#7A1A1A"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="01/449002"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="180dp"
+                        android:layout_marginTop="-80dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/sld">
+
+                    </ImageView>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/salad1"
+        android:layout_width="353dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Chickpea and Avocado Salad"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Salad"
+        app:srcCompat="@drawable/chickpea_and_avocado_salad" />
+
+    <ImageButton
+        android:id="@+id/salad2"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Quinoa and Kale Salad "
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/quinoa_and_kale_salad" />
+
+    <ImageButton
+        android:id="@+id/salad3"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="Spinach and Strawberry Salad  "
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/spinach_and_strawberry_salad" />
+
+    <TextView
+        android:id="@+id/Salad"
+        android:layout_width="158dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"
+        android:text="SALAD"
+        android:textAlignment="center"
+        android:textColor="#BA0606"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/salad1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Chickpea and Avocado Salad       15mins"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/salad2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salad1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="Quinoa and Kale Salad    20mins"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/salad3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salad2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="56dp"
+        android:text="Spinach and Strawberry Salad    15mins"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salad3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
